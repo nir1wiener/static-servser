@@ -1,0 +1,31 @@
+Q/A:
+
+1)  In this ex we found difficulties in the following topics:
+
+    a) At the beginning we didn't grasp the concept of how to get the http req and from
+       where we receive the req.
+
+    b) We didnt understand how to make a http res from the given http req.
+
+    c) we had an hard time to read all the documentation on the net moudle, and how to use it.
+
+    To conclusion we think that in the lesson there should be more emphasize on the given topics.
+
+3)  In order to make our server more efficient we used a a-synchronic functions so the server will keep working
+    and reciving new data and not just wait for data as requested.
+
+4) we test our server in the two given files:
+
+   test.js:
+
+           Open a sever and sending two diffrent http request one an valid request and the second one an http
+           request with an non-existing file.
+
+   load.js:
+
+           We open an sever and send a multiply request to the server.
+           using http moudle and the get function.
+
+  in addition we test with an non-supported files and req(meaning post and host).
+
+
